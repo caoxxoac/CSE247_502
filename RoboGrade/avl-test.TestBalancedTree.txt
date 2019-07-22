@@ -1,0 +1,330 @@
+-------------------
+CSE247 Robot tester starts testing avl on 2019-04-24 01:07:31 -0500
+
+========
+Testing in ./GradingRepos/repos/cse247-s19-students-xiangzhi.cao: avl as of 2019-04-13 00:10
+========
+Now in: /Users/jeremie/247HeadTA/cse247-s19-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao
+Your branch is up to date with 'origin/master'.
+HEAD is now at d73a2b8 fix exist error
+No local changes to save
+
+Updating d73a2b8..71c1e86
+Fast-forward
+ RoboGrade/avl-test.TestBalancedTree.txt            | 351 +++++++++++++++++++++
+ labs/spath/ShortestPaths.java                      |  10 +
+ labs/spath/testing/TestShortestPathDist.java       |  71 +++++
+ labs/spath/testing/TestShortestPathDistSilent.java |  46 +++
+ 4 files changed, 478 insertions(+)
+ create mode 100644 RoboGrade/avl-test.TestBalancedTree.txt
+ create mode 100644 labs/spath/testing/TestShortestPathDist.java
+ create mode 100644 labs/spath/testing/TestShortestPathDistSilent.java
+Going back in time to: 2019-04-13 00:10
+At hash d73a2b875621bf41b82044e10fa24710a1008755
+
+Buildfile: /Users/jeremie/247HeadTA/cse247-s19-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/Jeremie/247HeadTA/cse247-s19-tas/ key xiangzhi.cao testfilesource test/TestBalancedTree package avl repo ./GradingRepos/repos/cse247-s19-students-xiangzhi.cao
+     [copy] Copying 1 file to /Users/jeremie/247HeadTA/cse247-s19-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/labs/avl/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /Users/jeremie/247HeadTA/cse247-s19-support/build.xml
+
+compile:
+     [echo] Compiling avl/AVLTree
+    [mkdir] Created dir: /Users/jeremie/247HeadTA/cse247-s19-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/bin
+    [javac] Compiling 1 source file to /Users/jeremie/247HeadTA/cse247-s19-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/jeremie/247HeadTA/cse247-s19-support/build.xml
+
+compile:
+     [echo] Compiling avl/TreeNode
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/jeremie/247HeadTA/cse247-s19-support/build.xml
+
+compile:
+     [echo] Compiling avl/test/TestBalancedTree
+    [javac] Compiling 1 source file to /Users/jeremie/247HeadTA/cse247-s19-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Running test test.TestBalancedTree
+Buildfile: /Users/jeremie/247HeadTA/cse247-s19-support/build.xml
+
+test:
+    [junit] Running avl.test.TestBalancedTree
+    [junit] Testsuite: avl.test.TestBalancedTree
+    [junit] Root-7
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-5
+    [junit] |  |  |  L-4
+    [junit] |  |  |  R-6
+    [junit] |  R-11
+    [junit] |  |  L-9
+    [junit] |  |  |  L-8
+    [junit] |  |  |  R-10
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-7
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-5
+    [junit] |  |  |  L-4
+    [junit] |  |  |  R-6
+    [junit] |  R-11
+    [junit] |  |  L-9
+    [junit] |  |  |  L-8
+    [junit] |  |  |  R-10
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-6
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-4
+    [junit] |  |  |  R-5
+    [junit] |  R-11
+    [junit] |  |  L-8
+    [junit] |  |  |  L-7
+    [junit] |  |  |  R-10
+    [junit] |  |  |  |  L-9
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-7
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-5
+    [junit] |  |  |  L-4
+    [junit] |  |  |  R-6
+    [junit] |  R-11
+    [junit] |  |  L-9
+    [junit] |  |  |  L-8
+    [junit] |  |  |  R-10
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-6
+    [junit] |  L-2
+    [junit] |  |  L-0
+    [junit] |  |  |  R-1
+    [junit] |  |  R-4
+    [junit] |  |  |  L-3
+    [junit] |  |  |  R-5
+    [junit] |  R-9
+    [junit] |  |  L-8
+    [junit] |  |  |  L-7
+    [junit] |  |  R-11
+    [junit] |  |  |  L-10
+    [junit] |  |  |  R-13
+    [junit] |  |  |  |  L-12
+    [junit] |  |  |  |  R-14
+    [junit] 
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.732 sec
+    [junit] Output:
+    [junit] Root-7
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-5
+    [junit] |  |  |  L-4
+    [junit] |  |  |  R-6
+    [junit] |  R-11
+    [junit] |  |  L-9
+    [junit] |  |  |  L-8
+    [junit] |  |  |  R-10
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-7
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-5
+    [junit] |  |  |  L-4
+    [junit] |  |  |  R-6
+    [junit] |  R-11
+    [junit] |  |  L-9
+    [junit] |  |  |  L-8
+    [junit] |  |  |  R-10
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-6
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-4
+    [junit] |  |  |  R-5
+    [junit] |  R-11
+    [junit] |  |  L-8
+    [junit] |  |  |  L-7
+    [junit] |  |  |  R-10
+    [junit] |  |  |  |  L-9
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-7
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-5
+    [junit] |  |  |  L-4
+    [junit] |  |  |  R-6
+    [junit] |  R-11
+    [junit] |  |  L-9
+    [junit] |  |  |  L-8
+    [junit] |  |  |  R-10
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-6
+    [junit] |  L-2
+    [junit] |  |  L-0
+    [junit] |  |  |  R-1
+    [junit] |  |  R-4
+    [junit] |  |  |  L-3
+    [junit] |  |  |  R-5
+    [junit] |  R-9
+    [junit] |  |  L-8
+    [junit] |  |  |  L-7
+    [junit] |  |  R-11
+    [junit] |  |  |  L-10
+    [junit] |  |  |  R-13
+    [junit] |  |  |  |  L-12
+    [junit] |  |  |  |  R-14
+    [junit] 
+    [junit] 
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.732 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Root-7
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-5
+    [junit] |  |  |  L-4
+    [junit] |  |  |  R-6
+    [junit] |  R-11
+    [junit] |  |  L-9
+    [junit] |  |  |  L-8
+    [junit] |  |  |  R-10
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-7
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-5
+    [junit] |  |  |  L-4
+    [junit] |  |  |  R-6
+    [junit] |  R-11
+    [junit] |  |  L-9
+    [junit] |  |  |  L-8
+    [junit] |  |  |  R-10
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-6
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-4
+    [junit] |  |  |  R-5
+    [junit] |  R-11
+    [junit] |  |  L-8
+    [junit] |  |  |  L-7
+    [junit] |  |  |  R-10
+    [junit] |  |  |  |  L-9
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-7
+    [junit] |  L-3
+    [junit] |  |  L-1
+    [junit] |  |  |  L-0
+    [junit] |  |  |  R-2
+    [junit] |  |  R-5
+    [junit] |  |  |  L-4
+    [junit] |  |  |  R-6
+    [junit] |  R-11
+    [junit] |  |  L-9
+    [junit] |  |  |  L-8
+    [junit] |  |  |  R-10
+    [junit] |  |  R-13
+    [junit] |  |  |  L-12
+    [junit] |  |  |  R-14
+    [junit] 
+    [junit] Root-6
+    [junit] |  L-2
+    [junit] |  |  L-0
+    [junit] |  |  |  R-1
+    [junit] |  |  R-4
+    [junit] |  |  |  L-3
+    [junit] |  |  |  R-5
+    [junit] |  R-9
+    [junit] |  |  L-8
+    [junit] |  |  |  L-7
+    [junit] |  |  R-11
+    [junit] |  |  |  L-10
+    [junit] |  |  |  R-13
+    [junit] |  |  |  |  L-12
+    [junit] |  |  |  |  R-14
+    [junit] 
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testInsertLargeRandom took 0.789 sec
+    [junit] Testcase: testInsertSmallDescending took 0.001 sec
+    [junit] Testcase: testRemoveLarge took 0.587 sec
+    [junit] Testcase: testRebalanceSmall took 0 sec
+    [junit] Testcase: testRemoveSmall took 0.001 sec
+    [junit] Testcase: testEmptyTree took 0 sec
+    [junit] Testcase: testInsertSmallRandom took 0 sec
+    [junit] Testcase: testInsertLargeAscending took 0.102 sec
+    [junit] Testcase: testInsertLargeDescending took 0.21 sec
+    [junit] Testcase: testInsertSmallAscending took 0 sec
+    [junit] Testcase: testInsertDuplicates took 0 sec
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing avl on 2019-04-24 01:07:38 -0500
+-------------------

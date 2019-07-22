@@ -1,0 +1,77 @@
+-------------------
+CSE247 Robot tester starts testing hash on 2019-04-01 08:27:22 -0500
+
+========
+Testing in ./GradingRepos/repos/cse247-s19-students-xiangzhi.cao: hash as of 2019-03-23 00:10
+========
+Now in: /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at 1da5aaa Merge branch 'master' of ssh://bitbucket.org/cse247-s19/cse247-s19-students
+No local changes to save
+
+Updating 1da5aaa..e3e5ba6
+Fast-forward
+ RoboGrade/hash-test.TestStringTableFast.txt | 135 ++++++++++++++++++++++++++++
+ 1 file changed, 135 insertions(+)
+ create mode 100644 RoboGrade/hash-test.TestStringTableFast.txt
+Going back in time to: 2019-03-23 00:10
+At hash edec00e09f2656193a920c1c898ef914c9aa8128
+
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247-s19-tas/ key xiangzhi.cao testfilesource test/TestStringTableBasic package hash repo ./GradingRepos/repos/cse247-s19-students-xiangzhi.cao
+     [copy] Copying 1 file to /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/labs/hash/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247-s19-tas/ key xiangzhi.cao testfilesource SeqReader package hash repo ./GradingRepos/repos/cse247-s19-students-xiangzhi.cao
+     [copy] Copying 1 file to /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/labs/hash
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/StringTable
+    [mkdir] Created dir: /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/bin
+    [javac] Compiling 1 source file to /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/test/TestStringTableBasic
+    [javac] Compiling 1 source file to /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Running test test.TestStringTableBasic
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+test:
+    [junit] Running hash.test.TestStringTableBasic
+    [junit] Testsuite: hash.test.TestStringTableBasic
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec
+    [junit] 
+    [junit] Testcase: testFind took 0.085 sec
+    [junit] Testcase: testInit took 0 sec
+    [junit] Testcase: testDelete took 0.014 sec
+    [junit] Testcase: testZeroHash took 0.005 sec
+    [junit] Testcase: testInsert took 0.003 sec
+
+BUILD SUCCESSFUL
+Total time: 1 second
+
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing hash on 2019-04-01 08:27:30 -0500
+-------------------

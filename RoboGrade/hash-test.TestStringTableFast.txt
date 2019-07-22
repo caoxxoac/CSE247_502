@@ -1,0 +1,135 @@
+-------------------
+CSE247 Robot tester starts testing hash on 2019-04-01 06:37:42 -0500
+
+========
+Testing in ./GradingRepos/repos/cse247-s19-students-xiangzhi.cao: hash as of 2019-03-23 00:10
+========
+Now in: /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at 92b7867 robograde
+No local changes to save
+
+Updating 92b7867..1da5aaa
+Fast-forward
+ RoboGrade/heaps-test.TestMinHeap.txt         | 218 +++++++++++++++++++
+ labs/hash/SeqReader.java                     |  31 ++-
+ labs/hash/StringTable.java                   | 308 +++++++++++++++------------
+ labs/hash/test/TestStringTableBasic.java     | 157 ++++++++++++++
+ labs/hash/test/TestStringTableFast.java      | 304 ++++++++++++++++++++++++++
+ studios/{studio8 => studio7}/HashColors.java |   6 +-
+ studios/{studio8 => studio7}/HashPoints.java |   2 +-
+ studios/{studio8 => studio7}/Point.java      |  10 +-
+ 8 files changed, 885 insertions(+), 151 deletions(-)
+ create mode 100644 RoboGrade/heaps-test.TestMinHeap.txt
+ create mode 100644 labs/hash/test/TestStringTableBasic.java
+ create mode 100644 labs/hash/test/TestStringTableFast.java
+ rename studios/{studio8 => studio7}/HashColors.java (97%)
+ rename studios/{studio8 => studio7}/HashPoints.java (93%)
+ rename studios/{studio8 => studio7}/Point.java (78%)
+Going back in time to: 2019-03-23 00:10
+At hash edec00e09f2656193a920c1c898ef914c9aa8128
+
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247-s19-tas/ key xiangzhi.cao testfilesource test/TestStringTableFast package hash repo ./GradingRepos/repos/cse247-s19-students-xiangzhi.cao
+     [copy] Copying 1 file to /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/labs/hash/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /home/coles/git/cse247-s19-tas/ key xiangzhi.cao testfilesource SeqReader package hash repo ./GradingRepos/repos/cse247-s19-students-xiangzhi.cao
+     [copy] Copying 1 file to /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/labs/hash
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/StringTable
+    [mkdir] Created dir: /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/bin
+    [javac] Compiling 1 source file to /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+compile:
+     [echo] Compiling hash/test/TestStringTableFast
+    [javac] Compiling 1 source file to /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/bin
+    [javac] Note: /home/coles/git/cse247-support/GradingRepos/repos/cse247-s19-students-xiangzhi.cao/labs/hash/Main.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Running test test.TestStringTableFast
+Buildfile: /home/coles/git/cse247-support/build.xml
+
+test:
+    [junit] Running hash.test.TestStringTableFast
+    [junit] Testsuite: hash.test.TestStringTableFast
+    [junit] Testing DNA test case 1
+    [junit] Observed output for case1 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 2
+    [junit] Observed output for case2 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 3
+    [junit] Observed output for case3 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 4
+    [junit] Observed output for case4 matches expected output!
+    [junit] 
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.475 sec
+    [junit] Output:
+    [junit] Testing DNA test case 1
+    [junit] Observed output for case1 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 2
+    [junit] Observed output for case2 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 3
+    [junit] Observed output for case3 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 4
+    [junit] Observed output for case4 matches expected output!
+    [junit] 
+    [junit] 
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.475 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Testing DNA test case 1
+    [junit] Observed output for case1 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 2
+    [junit] Observed output for case2 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 3
+    [junit] Observed output for case3 matches expected output!
+    [junit] 
+    [junit] Testing DNA test case 4
+    [junit] Observed output for case4 matches expected output!
+    [junit] 
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testDNA1 took 0.83 sec
+    [junit] Testcase: testDNA2 took 0.079 sec
+    [junit] Testcase: testDNA3 took 0.581 sec
+    [junit] Testcase: testDNA4 took 0.924 sec
+    [junit] Testcase: testFind took 0.018 sec
+    [junit] Testcase: testInit took 0 sec
+    [junit] Testcase: testDelete took 0.002 sec
+    [junit] Testcase: testZeroHash took 0.002 sec
+    [junit] Testcase: testInsert took 0.001 sec
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing hash on 2019-04-01 06:37:51 -0500
+-------------------
